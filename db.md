@@ -170,4 +170,17 @@ INSERT INTO Category (CategorySk, CategoryName, ParentCategoryFk) VALUES (11, N'
 INSERT INTO Category (CategorySk, CategoryName, ParentCategoryFk) VALUES (12, N'Kitchenware', 4);
 INSERT INTO Category (CategorySk, CategoryName, ParentCategoryFk) VALUES (13, N'Gardening Tools', 4);
 
+
 SET IDENTITY_INSERT Category OFF;
+
+HÁTRALÉVŐ FELADATOK:
+
+2.2 Mintatermékek generálása
+AI segítségével generálj mintaadatokat a termék táblába! Meg kell oldani, hogy az LLM ismerje a termékkategóriák neveit és a kategóriaazonosítókat.
+AI segítségével generálj mintaadatokat a cím és az ügyfél táblákba is.
+Az SQL mondatokat dokumentáld!
+
+3. Trigger készítése
+Az első előadáson bemutatott módszerrel hozz létre TRIGGER-t, mely a termékkategória táblában eszközölt ÁFA és ármódosításokat automatikusan átvezeti az ártörténet táblába.
+
+Dokumentáld trigger kódját és az ellenőrzéshez használt kódot is!
